@@ -30,10 +30,5 @@ def turn(board)
   move(board, index, player = "X")
   valid_move?(board, index)
   display_board(board)
-  turn_number = 0
-  until turn_number == 9
-  turn(board)
-  turn_number += 1
-  end
-  puts "Please enter 1-9"
+  
 end
